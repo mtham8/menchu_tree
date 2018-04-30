@@ -1,0 +1,46 @@
+$dark-turquoise-invert: findColorInvert($dark-turquoise);
+$bright-turquoise-invert: findColorInvert($bright-turquoise);
+
+$addColors: (
+  'dark-turquoise': ($dark-turquoise, $dark-turquoise-invert),
+  'bright-turquoise': ($bright-turquoise, $bright-turquoise-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+// elements
+$input-focus-border-color: $primary;
+$input-focus-box-shadow-color: rgba($primary, 0.25);
+
+/* filler */
+.fill {
+  width: 10px;
+  display: inline-block;
+}
+
+/* general border for containers */
+.container-border {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+/* add ability for user to highlight text */
+.user-highlight {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* disable an element */
+[disabled],
+.disabled {
+  cursor: default;
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* react markdown */
+.mde-text {
+  textarea {
+    font-size: 0.9rem;
+  }
+}

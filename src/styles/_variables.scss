@@ -1,0 +1,31 @@
+// colors
+$dark-turquoise: #3A8974;
+$bright-turquoise: #4BBCA8;
+$orange: #dd672c;
+$purp-grey: #f1f1fc;
+
+// customized bulma variables
+$turquoise: #35b099;
+$purple: #5755d9;
+$blue: #459ead;
+
+// $info: $purp-grey;
+// $primary: $purple;
+
+$body-line-height: 1;
+
+// custom variables
+$text-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+$thin-border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+
+$mde-preview-font-size:             0.9rem;
+$mde-button-color:                  #767676 !default;
+$mde-border-color:                  $thin-border;
+$mde-textarea-min-height:           200px !default;
+$mde-textarea-padding:              0.5rem !default;
+$mde-textarea-border-radius:       .25rem !default;
+$mde-preview-margin-top:            8px !default;
+$mde-preview-horizontal-padding:    15px !default;
+$mde-preview-vertical-padding:      105x !default;
+$mde-help-color:                    rgba(0,0,0,.15) !default;

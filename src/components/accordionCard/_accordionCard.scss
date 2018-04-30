@@ -1,0 +1,34 @@
+.card input:checked ~ .card-header .icon,
+.card[open] .card-header .icon {
+  transform: rotate(90deg);
+}
+
+.card input:checked ~ .card-content,
+.card[open] .card-content {
+  display: block;
+}
+
+.card input:checked ~ .card-footer,
+.card[open] .card-footer {
+  display: flex;
+}
+
+.card .card-header .icon {
+  transition: all .2s ease;
+}
+
+.card .card-content,
+.card .card-footer {
+  display: none;
+}
+
+.card .card-content {
+  padding: 1rem;
+}
+
+.card-footer {
+  span {
+    width: 100%;
+    text-align: center !important;
+  }
+}

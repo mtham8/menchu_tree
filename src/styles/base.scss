@@ -1,0 +1,31 @@
+@import '~bulma/sass/utilities/initial-variables';
+
+@import './_variables';
+@import './_buttons';
+@import './_popover';
+
+@import '~bulma/sass/utilities/functions';
+@import '~bulma/sass/utilities/derived-variables';
+
+@import './_customs';
+
+@import '~bulma';
+// @import '~bulma-checkradio/checkradio';
+// @import '~bulma-tooltip/tooltip';
+
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+// component styles
+@import '../components/login/_login';
+@import '../components/datetimePicker/_datetimePicker';
+@import '../components/accordionCard/_accordionCard';

@@ -1,0 +1,29 @@
+.rdt td, th {
+  vertical-align: middle !important;
+}
+
+.rdt tr {
+  line-height: 1;
+}
+
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+  background-color: $primary !important;
+}
+
+.rdtPicker td.rdtToday:before {
+  border-bottom: 7px solid $primary !important;
+}
+
+.rdtTimeToggle,
+.rdtSwitch,
+.rdtPrev,
+.rdtNext {
+  color: $primary-invert;
+  background-color: $primary;
+
+  &:hover {
+    background-color: $info-invert !important;
+    color: $info !important;
+  }
+}

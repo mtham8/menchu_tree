@@ -1,0 +1,46 @@
+$name: 'login';
+
+.#{$name}-title {
+  font-size: 2.4rem;
+  color: $primary;
+  line-height: 1.5;
+}
+
+.#{$name}-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  img {
+    margin: 5px;
+    width: 75px;
+    height: auto;
+  }
+}
+
+.#{$name}-content {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.#{$name}-container {
+  height: 90vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+@media all and (max-width:900px) {
+
+    .#{$name}-content {
+      width: 90vw;
+    }
+}
